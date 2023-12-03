@@ -1,0 +1,148 @@
+body {
+    background: url("../img/bg.gif") no-repeat;
+    background-size: cover;
+
+
+}
+.container {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.headline {
+    background-color: #fffb88;
+    border-radius: 50px;
+}
+h1 {
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ce15ff;
+}
+.form-container {
+    height: 250px;
+    background-color: #fffb88;
+    border-radius: 30px;
+    border: 3px solid #ffae38;
+
+}
+h2 {
+    margin-top: 20px;
+    text-align: center;
+    color: #ce15ff;
+}
+.male-img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 20px auto;
+}
+.female-img {
+    height: 100px;
+    display: block;
+    margin: 20px auto;
+ }
+form {
+    margin: 20px auto;
+    width: 80%;
+}
+input {
+    width: 100%;
+}
+.date {
+    border-radius: 10px;
+    background-color: #bdff53;
+    border: 0px;
+}
+.button {
+    background-color: #fffb88;
+    border-radius: 50px;
+    height: 100px;
+}
+.button-container {
+    margin-top: 0px;
+}
+button {
+    margin: 0px auto;
+    display: block;
+    height: 50px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 500px;
+    color: #ce15ff;
+    background-color: #61a8ff;
+    border: 0px;
+    border-radius: 30px;
+    outline: none;
+}
+button:hover {
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.5);
+    outline: none;
+}
+button:active {
+    outline: none;
+    box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.5);
+
+}
+button:focus {
+    outline: none;
+}
+.result-container {
+    margin-top: 0px;
+}
+.result {
+    height: 350px;
+    background-color: #fffb88;
+    border-radius: 30px;
+    border: 3px solid #ffae38;
+}
+h3 {
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ce15ff;
+}
+.texts {
+    margin-left: 20px;
+    color: #ce15ff;
+}
+@media screen and (max-width: 992px) {
+    .headline {
+        width: 90%;
+    }
+    .result {
+        height: 400px;
+    }
+    .form-container {
+        margin-top: 20px;
+    }
+    button {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 576px) {
+    button {
+        font-size: 16px;
+    }
+    .texts {
+        text-align: center;
+    }
+    h2 {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 382px) {
+    .form-container {
+        height: 300px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+}
